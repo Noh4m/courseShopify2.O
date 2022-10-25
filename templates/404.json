@@ -1,9 +1,14 @@
 {
-    "name": "Template 404",
-    "sections": {
-       "template_404": {
-        "type": "template_404"
-       }
-    },
-    "order": ["template_404"]
+  "sections": {
+    "template_404": {
+      "type": "template_404",
+      "settings": {
+        "title": "404",
+        "subtext": "quelque chose s'est mal passé.."
+      }
+    }
+  },
+  "order": [
+    "template_404"
+  ]
 }
