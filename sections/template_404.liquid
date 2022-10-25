@@ -1,0 +1,29 @@
+<h2 class=" text-9xl font-dirtyline px-2">
+  {{ section.settings.title }}
+</h2>
+<h2 class="text-3xl font-dirtyline px-2">
+  {{ section.settings.subtext }}
+</h2>
+
+
+
+{% schema %}
+  {
+    "name": "Template 404",
+    "tag": "section",
+    "class": "flex flex-col justify-center items-center h-screen text-center bg-zinc-900 text-white",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "default": "404",
+        "label": "404 Title"
+      }, {
+        "type": "text",
+        "id": "subtext",
+        "default": "Sub text 404",
+        "label": "404 text"
+      }
+    ]
+  }
+{% endschema %}

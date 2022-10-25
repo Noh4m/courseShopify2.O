@@ -9,7 +9,12 @@ module.exports = {
     "./templates/**/*.liquid",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        dirtyline: ["Dirtyline", "cursive"],
+      },
+    },
   },
   plugins: [],
 }

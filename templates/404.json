@@ -1,0 +1,9 @@
+{
+    "name": "Template 404",
+    "sections": {
+       "template_404": {
+        "type": "template_404"
+       }
+    },
+    "order": ["template_404"]
+}
